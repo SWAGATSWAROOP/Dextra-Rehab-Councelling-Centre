@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="h-[280px] flex justify-around items-center">
         <div className="flex-1 flex justify-around items-center space-x-28">
           <div className=" flex-1 flex justify-around items-center ">
-            <span className="">THera Clinic</span>
+            <span className="">TheraClinic</span>
           </div>
           <div className=" flex space-x-20 ">
             <a href="#about" className="hover:underline">About</a>
