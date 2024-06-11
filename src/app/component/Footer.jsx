@@ -39,7 +39,7 @@ export default function Footer() {
       <div className="w-full border-b border-white"></div>
       <div className="h-[40px] bg-[#163172] flex justify-between items-center px-20">
         <div className="text-center flex-1 px-4">
-          <span>2024THeraClinic.All rights are reserved</span>
+          <span>2024TheraClinic.All rights are reserved</span>
         </div>
         <div className="text-center flex-1">
           <a href="#privacy" className="hover:underline">Privacy Policy</a>
