@@ -1,12 +1,6 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faInstagram,
-  faLinkedinIn,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
@@ -17,64 +11,26 @@ export default function Footer() {
             <span className="">TheraClinic</span>
           </div>
           <div className=" flex space-x-20 ">
-            <a href="#about" className="hover:underline">
-              About
-            </a>
-            <a href="#services" className="hover:underline">
-              Services
-            </a>
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              LinkedIn
-            </a>
-            <a href="#content" className="hover:underline">
-              Contact
-            </a>
+            <a href="#about" className="hover:underline">About</a>
+            <a href="#services" className="hover:underline">Services</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
+            <a href="#content" className="hover:underline">Contact</a>
           </div>
         </div>
         <div className="flex-1 flex justify-around items-center space-x-4">
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
             <FontAwesomeIcon icon={faFacebookF} size="2x" />
           </a>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
-          <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
             <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
           </a>
-          <a
-            href="https://www.twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
             <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
         </div>
@@ -86,19 +42,13 @@ export default function Footer() {
           <span>2024 TheraClinic.All rights are reserved</span>
         </div>
         <div className="text-center flex-1">
-          <a href="#privacy" className="hover:underline">
-            Privacy Policy
-          </a>
+          <a href="#privacy" className="hover:underline">Privacy Policy</a>
         </div>
         <div className="text-center flex-1">
-          <a href="#terms" className="hover:underline">
-            Terms of Services
-          </a>
+          <a href="#terms" className="hover:underline">Terms of Services</a>
         </div>
         <div className="text-center flex-1">
-          <a href="#cookies" className="hover:underline">
-            Cookie Settings
-          </a>
+          <a href="#cookies" className="hover:underline">Cookie Settings</a>
         </div>
       </div>
     </div>
