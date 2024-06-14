@@ -17,7 +17,7 @@ export default function Footer() {
               Services
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/company/dextra-rehab-and-counseling-centre"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline pr-3"
@@ -115,7 +115,9 @@ export default function Footer() {
       <hr className="border-t border-gray-400" />
 
       <div className="flex flex-col md:flex-row justify-center items-center p-6 space-y-6 md:space-y-0 md:space-x-6">
-        <p>&copy; {new Date().getFullYear()} TheraClinic. All rights reserved</p>
+        <p>
+          &copy; {new Date().getFullYear()} TheraClinic. All rights reserved
+        </p>
         <a href="/privacy" className="hover:underline">
           <p>Privacy Policy</p>
         </a>

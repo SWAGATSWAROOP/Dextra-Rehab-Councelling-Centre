@@ -1,9 +1,6 @@
 import Image from "next/image";
 import image1 from "../../public/1324356.jpg";
 import image2 from "../../public/7317079.jpg";
-import image3 from "../../public/3764085.jpg";
-import image4 from "../../public/6409847.jpg";
-import image5 from "../../public/4307457.jpg";
 
 import Link from "next/link";
 import React from "react";
@@ -11,17 +8,17 @@ import React from "react";
 export default function Home() {
   const therapies = [
     {
-      src: image3,
+      src: "/3764085.jpg",
       alt: "Occupational Therapy",
       title: "Occupational Therapy",
     },
     {
-      src: image4,
+      src: "/6409847.jpg",
       alt: "Speech Therapy",
       title: "Speech Therapy",
     },
     {
-      src: image5,
+      src: "/4307457.jpg",
       alt: "Psychological Therapy",
       title: "Psychological Therapy",
     },
@@ -101,12 +98,10 @@ export default function Home() {
             className="flex flex-col items-center p-4 bg-white shadow-lg rounded-lg sm:scroll-auto "
           >
             <div className="flex-shrink-0">
-              <Image
+              <img
                 src={therapy.src}
                 alt={therapy.alt}
-                width={300}
-                height={300}
-                className="rounded w-full h-auto"
+                className="rounded w-96 h-96"
               />
             </div>
             <div className="mt-4 text-center">
