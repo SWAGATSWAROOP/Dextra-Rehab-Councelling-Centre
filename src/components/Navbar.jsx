@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="w-full max-w-[1620px] h-[73px] bg-[#163172] flex items-center justify-between px-4 py-2">
       <div className="flex items-center">
         <Image src="/favicon.jpg" alt="Dextra Logo" width={48} height={48} />
-        <h1 className="text-white ml-3">Dextra Rehab</h1>
+        <h1 className="text-white ml-3">Dextra Rehab And Counseling Centre</h1>
       </div>
     </div>
   );

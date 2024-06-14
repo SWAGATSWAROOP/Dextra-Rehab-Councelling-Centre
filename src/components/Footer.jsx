@@ -5,8 +5,8 @@ export default function Footer() {
     <div className="w-full max-w-[1620px] h-auto bg-[#163172] text-white flex flex-col justify-between p-6">
       <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
-          <div className="Theraclinic sm:text-left">
-            <span className="text-lg font-bold">TheraClinic</span>
+          <div className="sm:text-left">
+            <span className="text-lg font-bold">Dextra Rehab</span>
           </div>
 
           <div className="flex flex-row md:flex-row md:space-y-0 md:space-x-10">
@@ -116,17 +116,8 @@ export default function Footer() {
 
       <div className="flex flex-col md:flex-row justify-center items-center p-6 space-y-6 md:space-y-0 md:space-x-6">
         <p>
-          &copy; {new Date().getFullYear()} TheraClinic. All rights reserved
+          &copy; {new Date().getFullYear()} Dextra Rehab. All rights reserved
         </p>
-        <a href="/privacy" className="hover:underline">
-          <p>Privacy Policy</p>
-        </a>
-        <a href="/terms" className="hover:underline">
-          <p>Terms of Service</p>
-        </a>
-        <a href="/cookie" className="hover:underline">
-          <p>Cookie Settings</p>
-        </a>
       </div>
     </div>
   );
