@@ -1,3 +1,6 @@
+import React from 'react';
+import Link from 'next/link';
+
 export default function Navbar(){
     return (
         <div className="w-full max-w-[1620px] h-[73px] bg-[#163172] flex items-center justify-between px-4 py-2">
