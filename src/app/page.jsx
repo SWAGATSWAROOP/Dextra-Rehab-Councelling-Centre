@@ -5,6 +5,9 @@ import image3 from '../../public/3764085.jpg';
 import image4 from '../../public/6409847.jpg';
 import image5 from '../../public/4307457.jpg';
 
+import Link from 'next/link';
+import React from "react";
+
 export default function Home() {
   const therapies = [
     {
@@ -25,25 +28,27 @@ export default function Home() {
   ];
   return (
     <>
-   <div className="flex flex-col items-center justify-center bg-blue-50 md:flex-row md:p-20 sm:pt-10">
-  <div className="mb-6 text-center md:mb-0 md:mr-10 md:text-left">
-    <h1 className="text-2xl font-semibold text-gray-800 sm:text-3xl md:text-4xl">Welcome to</h1>
-    <h2 className="text-3xl font-bold text-gray-800 sm:text-4xl md:text-6xl">Dextra Rehab</h2>
-    <p className="mt-2 text-xl text-gray-600 sm:text-2xl md:text-4xl">Your Health, Our Priority</p>
-    <button className="px-4 py-2 mt-4 text-white bg-blue-700 rounded hover:bg-blue-800">
-      Get Started
-    </button>
-  </div>
-  <div className="flex-shrink-0 p-4 md:p-0">
-    <Image
-      src={image1}
-      alt="Doctor with patient"
-      width={380}
-      height={300}
-      className="rounded w-full h-auto object-cover"
-    />
-  </div>
-</div>
+      <div className="flex flex-col items-center justify-center bg-blue-50 md:flex-row md:p-20 sm:pt-10">
+        <div className="mb-6 text-center md:mb-0 md:mr-10 md:text-left">
+          <h1 className="text-2xl font-semibold text-gray-800 sm:text-3xl md:text-4xl">Welcome to</h1>
+          <h2 className="text-3xl font-bold text-gray-800 sm:text-4xl md:text-6xl">Dextra Rehab</h2>
+          <p className="mt-2 text-xl text-gray-600 sm:text-2xl md:text-4xl">Your Health, Our Priority</p>
+          <Link href="/ContactUs" >
+            <button className="px-4 py-2 mt-4 text-white bg-blue-700 rounded hover:bg-blue-800">
+            Get Started
+          </button>
+          </Link>
+        </div>
+        <div className="flex-shrink-0 p-4 md:p-0">
+          <Image
+            src={image1}
+            alt="Doctor with patient"
+            width={380}
+            height={300}
+            className="rounded w-full h-auto object-cover"
+          />
+        </div>
+      </div>
 
 
 
