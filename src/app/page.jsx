@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-blue-50 md:flex-row md:p-20 sm:pt-10">
-        <div className="mb-6 text-center md:mb-0 md:mr-10 md:text-left">
+        <div className="mb-6 text-center mt-10 md:mb-0 md:mr-10 md:text-left">
           <h1 className="text-2xl font-semibold text-gray-800 sm:text-3xl md:text-4xl">
             Welcome to
           </h1>
@@ -37,7 +37,7 @@ export default function Home() {
             Your Health, Our Priority
           </p>
           <Link href="/ContactUs">
-            <button className="px-4 py-2 mt-4 text-white bg-blue-700 rounded hover:bg-blue-800">
+            <button className="px-4 py-2 mt-4 text-white bg-blue-700 rounded-3xl hover:bg-blue-800">
               Get Started
             </button>
           </Link>
@@ -55,7 +55,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center justify-center bg-white md:flex-row">
         <div className="ml-0 mt-6 text-center md:ml-10 md:mt-0 md:text-left md:order-2">
-          <h2 className="text-4xl font-semibold text-gray-800">
+          <h2 className="text-4xl mt-10 font-semibold text-gray-800">
             Your Trusted Health Partner
           </h2>
         </div>
@@ -95,17 +95,17 @@ export default function Home() {
         {therapies.map((therapy, index) => (
           <div
             key={index}
-            className="flex flex-col items-center p-4 bg-white shadow-lg rounded-lg sm:scroll-auto "
+            className="flex flex-col items-center p-4 bg-[#163172] shadow-lg m-2 rounded-lg sm:scroll-auto "
           >
             <div className="flex-shrink-0">
               <img
                 src={therapy.src}
                 alt={therapy.alt}
-                className="rounded w-96 h-96"
+                className="rounded w-96 h-96 "
               />
             </div>
             <div className="mt-4 text-center">
-              <h3 className="text-xl font-semibold text-gray-800">
+              <h3 className="text-xl font-semibold text-white">
                 {therapy.title}
               </h3>
             </div>
@@ -114,11 +114,11 @@ export default function Home() {
       </div>
 
       <div className="bg-blue-100 p-8 rounded-lg shadow-md text-center">
-        <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
-        <p className="text-gray-700">
+        <h2 className="text-3xl font-bold mb-4 mt-10">Our Mission</h2>
+        <p className="text-gray-700 mb-10">
           Committed to delivering superior healthcare services with a focus on
           quality, safety, and patient satisfaction.
-          <br />
+          <br /> <br/>
           Our mission is to create a healing environment where advanced medical
           practices meet personalized care, ensuring the best outcomes for our
           patients.
